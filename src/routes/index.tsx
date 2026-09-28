@@ -12,15 +12,21 @@ import {
   Star,
   Users,
 } from "lucide-react";
-import heroImg from "@/assets/hero.jpg";
 import aboutImg from "@/assets/Melvin Hodges About.webp";
-import heroVideo from "@/assets/hero logo.mp4";
+import heroBg1 from "@/assets/background/1.jpeg";
+import heroBg2 from "@/assets/background/2.webp";
+import heroBg3 from "@/assets/background/3.jpg";
+import heroBg4 from "@/assets/background/4.jpg";
+import heroBg5 from "@/assets/background/0x0.webp";
 import { Button } from "@/components/ui/button";
 import { CtaBanner } from "@/components/CtaBanner";
+import { HeroSlideshow } from "@/components/HeroSlideshow";
 import { SectionBadge } from "@/components/Section";
 import { site, stats, testimonials } from "@/lib/site";
 import { services } from "@/lib/services";
 import { states } from "@/lib/states";
+
+const heroImages = [heroBg1, heroBg2, heroBg3, heroBg4, heroBg5];
 
 const featuredServices = services.slice(0, 6);
 const featuredStates = states.slice(0, 10);
@@ -109,16 +115,7 @@ function Index() {
   return (
     <>
       <section className="relative isolate overflow-hidden bg-charcoal">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          poster={heroImg}
-          className="absolute inset-0 -z-10 h-full w-full object-cover"
-        >
-          <source src={heroVideo} type="video/mp4" />
-        </video>
+        <HeroSlideshow images={heroImages} />
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-charcoal/90 via-charcoal/70 to-charcoal/30" />
         <div className="mx-auto max-w-7xl px-4 py-24 sm:py-32 lg:py-40">
           <div className="max-w-2xl">

@@ -153,3 +153,29 @@
     color: var(--color-foreground);
   }
 }
+
+@keyframes hero-ken-burns-in {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.12);
+  }
+}
+
+@keyframes hero-ken-burns-out {
+  from {
+    transform: scale(1.12);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.animate-hero-ken-burns-in {
+  animation: hero-ken-burns-in linear forwards;
+}
+
+.animate-hero-ken-burns-out {
+  animation: hero-ken-burns-out linear forwards;
+}
