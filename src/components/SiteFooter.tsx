@@ -20,7 +20,7 @@ export function SiteFooter() {
           />
           <p className="mt-4 text-sm leading-relaxed text-charcoal-foreground/70">
             Personalized life insurance, retirement, and estate planning guidance from our Rockford,
-            IL office — serving clients nationwide.
+            IL office, serving clients nationwide.
           </p>
           <a
             href={site.googleUrl}

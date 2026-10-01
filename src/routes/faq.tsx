@@ -13,7 +13,7 @@ import { faqs } from "@/lib/site";
 export const Route = createFileRoute("/faq")({
   head: () => ({
     meta: [
-      { title: "Frequently Asked Questions | Mr Melvin Insurance Services INC — Rockford, IL" },
+      { title: "Frequently Asked Questions | Mr Melvin Insurance Services INC | Rockford, IL" },
       {
         name: "description",
         content:

@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
-import aboutImg from "@/assets/Melvin Hodges About.webp";
+import aboutImg from "@/assets/Mr Melvin.jpg";
 import { Button } from "@/components/ui/button";
 import { CtaBanner } from "@/components/CtaBanner";
 import { PageHero, SectionBadge } from "@/components/Section";
@@ -9,7 +9,7 @@ import { site, stats } from "@/lib/site";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us | Mr Melvin Insurance Services INC — Rockford, IL" },
+      { title: "About Us | Mr Melvin Insurance Services INC | Rockford, IL" },
       {
         name: "description",
         content:
@@ -31,7 +31,7 @@ export const Route = createFileRoute("/about")({
 const values = [
   {
     title: "Personalized Planning",
-    text: "No cookie-cutter policies — every recommendation starts with understanding your family, goals, and budget.",
+    text: "No cookie-cutter policies, every recommendation starts with understanding your family, goals, and budget.",
   },
   {
     title: "Responsive Communication",
@@ -72,7 +72,7 @@ function AboutPage() {
               </p>
               <p>
                 From a single life insurance policy to a full estate and trust planning strategy, we
-                treat every client's goals as our own priority — because building real financial
+                treat every client's goals as our own priority, because building real financial
                 security takes trust, not a sales pitch.
               </p>
               <p>

@@ -14,7 +14,7 @@ export const Route = createFileRoute("/services/")({
       {
         name: "description",
         content:
-          "From life insurance and annuities to retirement, estate, and trust planning — explore all 9 services offered by Mr Melvin Insurance Services INC, serving clients nationwide.",
+          "From life insurance and annuities to retirement, estate, and trust planning, explore all 9 services offered by Mr Melvin Insurance Services INC, serving clients nationwide.",
       },
       { property: "og:title", content: "Services | Mr Melvin Insurance Services INC" },
       {
@@ -35,7 +35,7 @@ function ServicesIndex() {
       <PageHero
         badge="Our Services"
         title="Comprehensive Life Insurance & Financial Planning Services"
-        description="From life insurance and annuities to retirement and estate planning, Mr Melvin Insurance Services INC helps you build a plan around your goals — serving clients across 22 states."
+        description="From life insurance and annuities to retirement and estate planning, Mr Melvin Insurance Services INC helps you build a plan around your goals, serving clients across 22 states."
       />
 
       <section className="py-16 sm:py-24">

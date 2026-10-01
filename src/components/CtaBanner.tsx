@@ -8,7 +8,7 @@ export function CtaBanner() {
     <section className="bg-primary text-primary-foreground">
       <div className="mx-auto max-w-5xl px-4 py-16 text-center sm:py-20">
         <h2 className="font-display text-3xl font-extrabold leading-tight sm:text-4xl">
-          Let's Plan for Your Family's Future — Reach Out Today
+          Let's Plan for Your Family's Future: Reach Out Today
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-primary-foreground/80">
           Have questions about life insurance, retirement, or estate planning? Call{" "}

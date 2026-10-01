@@ -17,7 +17,7 @@ export const Route = createFileRoute("/services/$slug")({
     return {
       meta: [
         {
-          title: `${loaderData.title} | Mr Melvin Insurance Services INC — Nationwide`,
+          title: `${loaderData.title} | Mr Melvin Insurance Services INC | Nationwide`,
         },
         { name: "description", content: loaderData.excerpt },
         { property: "og:title", content: `${loaderData.title} | Mr Melvin Insurance Services INC` },

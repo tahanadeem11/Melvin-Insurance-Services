@@ -5,7 +5,7 @@ export const site = {
   phoneHref: "tel:+18662183854",
   email: "Mrmelvin.gfi@gmail.com",
   emailHref: "mailto:Mrmelvin.gfi@gmail.com",
-  hours: "Mon–Fri 9am–7pm, Sat 9am–5pm",
+  hours: "Mon to Fri 9am to 7pm, Sat 9am to 5pm",
   address: "1935 S Alpine Rd #2n, Rockford, IL 61108",
   googleUrl: "https://www.google.com/search?q=Mr+Melvin+Insurance+Services+INC+Rockford+IL",
 };
@@ -45,7 +45,7 @@ export const faqs = [
   },
   {
     q: "What's the difference between life insurance and annuities?",
-    a: "Life insurance provides a death benefit to your beneficiaries, while annuities are designed to provide you with a steady stream of income, often in retirement. We'll help you understand which — or which combination — fits your goals.",
+    a: "Life insurance provides a death benefit to your beneficiaries, while annuities are designed to provide you with a steady stream of income, often in retirement. We'll help you understand which, or which combination, fits your goals.",
   },
   {
     q: "How do I get a quote or start a consultation?",
@@ -61,6 +61,6 @@ export const faqs = [
   },
   {
     q: "Is there a cost to speak with someone about my options?",
-    a: "No — an initial conversation about your needs and goals is free and comes with no obligation to purchase anything.",
+    a: "No, an initial conversation about your needs and goals is free and comes with no obligation to purchase anything.",
   },
 ];

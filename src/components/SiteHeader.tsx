@@ -139,7 +139,7 @@ export function SiteHeader() {
             <Button asChild size="lg" className="hidden font-display font-bold sm:inline-flex">
               <a href={site.phoneHref}>
                 <Phone className="h-4 w-4" />
-                Call Now — {site.phoneDisplay}
+                Call Now: {site.phoneDisplay}
               </a>
             </Button>
             <Button asChild size="icon" className="sm:hidden" aria-label="Call now">

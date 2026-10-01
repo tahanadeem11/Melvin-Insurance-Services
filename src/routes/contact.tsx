@@ -11,16 +11,16 @@ import { site } from "@/lib/site";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Us | Mr Melvin Insurance Services INC — Rockford, IL" },
+      { title: "Contact Us | Mr Melvin Insurance Services INC | Rockford, IL" },
       {
         name: "description",
         content:
-          "Get a free consultation for life insurance, annuities, retirement or estate planning. Call (866) 218-3854, email us, or send a message — serving clients nationwide.",
+          "Get a free consultation for life insurance, annuities, retirement or estate planning. Call (866) 218-3854, email us, or send a message, serving clients nationwide.",
       },
       { property: "og:title", content: "Contact Mr Melvin Insurance Services INC" },
       {
         property: "og:description",
-        content: "Reach out for a free consultation — serving clients across 22 states nationwide.",
+        content: "Reach out for a free consultation, serving clients across 22 states nationwide.",
       },
       { property: "og:url", content: "/contact" },
     ],
@@ -40,7 +40,7 @@ function ContactPage() {
   function handleSubmit(e: FormEvent) {
     e.preventDefault();
     const subject = encodeURIComponent(
-      `Free Consultation Request${form.service ? ` — ${form.service}` : ""} from ${form.name || "Website"}`,
+      `Free Consultation Request${form.service ? `: ${form.service}` : ""} from ${form.name || "Website"}`,
     );
     const body = encodeURIComponent(
       `Name: ${form.name}\nPhone: ${form.phone}\nEmail: ${form.email}\nService Interested In: ${form.service}\n\nMessage:\n${form.message}`,
@@ -53,7 +53,7 @@ function ContactPage() {
       <PageHero
         badge="Contact Us"
         title="Let's Talk About Your Future"
-        description="Reach out any time during business hours — we typically respond within one business day to schedule your free consultation."
+        description="Reach out any time during business hours, we typically respond within one business day to schedule your free consultation."
       />
 
       <section className="py-16 sm:py-24">
@@ -130,7 +130,7 @@ function ContactPage() {
                 Request a Free Consultation
               </h2>
               <p className="mt-2 text-sm text-muted-foreground">
-                Fill out the form and it will open a pre-filled email to {site.email} — no account
+                Fill out the form and it will open a pre-filled email to {site.email}, no account
                 or sign-up needed.
               </p>
               <form onSubmit={handleSubmit} className="mt-6 grid gap-5 sm:grid-cols-2">

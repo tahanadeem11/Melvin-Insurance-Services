@@ -19,7 +19,7 @@ export const Route = createFileRoute("/states/")({
       { property: "og:title", content: "States We Serve | Mr Melvin Insurance Services INC" },
       {
         property: "og:description",
-        content: "22 states served nationwide — see if we cover your state.",
+        content: "22 states served nationwide, see if we cover your state.",
       },
       { property: "og:url", content: "/states" },
     ],

@@ -46,11 +46,11 @@ export const services: Service[] = [
     heroImage: lifeInsuranceImg,
     icon: HeartHandshake,
     intro:
-      "Life insurance is one of the most important gifts you can leave your family — financial security when they need it most. We help you understand your options, from term to permanent coverage, and find a policy that fits your budget and your goals.",
+      "Life insurance is one of the most important gifts you can leave your family, financial security when they need it most. We help you understand your options, from term to permanent coverage, and find a policy that fits your budget and your goals.",
     benefits: [
       "Financial protection for your loved ones when they need it most",
       "Coverage options tailored to your budget and life stage",
-      "Plain-English guidance — no confusing insurance jargon",
+      "Plain-English guidance, no confusing insurance jargon",
       "Help comparing term, whole, and other policy types",
       "Ongoing support as your family's needs change",
     ],
@@ -100,7 +100,7 @@ export const services: Service[] = [
     faqs: [
       {
         q: "Are annuities right for everyone?",
-        a: "No — annuities are a good fit for some financial goals and not others. We'll have an honest conversation about whether one makes sense as part of your overall plan.",
+        a: "No, annuities are a good fit for some financial goals and not others. We'll have an honest conversation about whether one makes sense as part of your overall plan.",
       },
       {
         q: "When can I start receiving payments from an annuity?",
@@ -140,7 +140,7 @@ export const services: Service[] = [
       },
       {
         q: "Does using living benefits reduce my life insurance payout?",
-        a: "Typically, yes — accessing living benefits reduces the death benefit that would otherwise go to your beneficiaries. We'll make sure you understand the tradeoffs before you decide.",
+        a: "Typically, yes, accessing living benefits reduces the death benefit that would otherwise go to your beneficiaries. We'll make sure you understand the tradeoffs before you decide.",
       },
     ],
   },
@@ -154,7 +154,7 @@ export const services: Service[] = [
     heroImage: wealthAccumulationImg,
     icon: TrendingUp,
     intro:
-      "Building wealth takes more than a single account or product — it takes a strategy. We help you look at the full picture and identify approaches to grow your assets steadily over time, aligned with your risk tolerance and timeline.",
+      "Building wealth takes more than a single account or product, it takes a strategy. We help you look at the full picture and identify approaches to grow your assets steadily over time, aligned with your risk tolerance and timeline.",
     benefits: [
       "A clear, personalized approach to growing your assets",
       "Strategies aligned with your risk tolerance and goals",
@@ -176,7 +176,7 @@ export const services: Service[] = [
       },
       {
         q: "Do I need a lot of money to start?",
-        a: "No — wealth accumulation strategies can be built at any stage. The important part is starting with a plan that fits where you are today.",
+        a: "No, wealth accumulation strategies can be built at any stage. The important part is starting with a plan that fits where you are today.",
       },
     ],
   },
@@ -190,7 +190,7 @@ export const services: Service[] = [
     heroImage: retirementPlanningImg,
     icon: CalendarClock,
     intro:
-      "Retirement planning is about more than a savings number — it's about building a strategy that gives you confidence in your future income. We help you look at your timeline, goals, and resources to build a retirement plan that works for you.",
+      "Retirement planning is about more than a savings number, it's about building a strategy that gives you confidence in your future income. We help you look at your timeline, goals, and resources to build a retirement plan that works for you.",
     benefits: [
       "A clear picture of your retirement income needs",
       "Strategies that balance growth, income, and protection",
@@ -212,7 +212,7 @@ export const services: Service[] = [
       },
       {
         q: "Can you help even if I already have a 401(k) or other retirement accounts?",
-        a: "Absolutely — we look at your full picture, including existing accounts, and help identify how insurance and other strategies can round out your plan.",
+        a: "Absolutely, we look at your full picture, including existing accounts, and help identify how insurance and other strategies can round out your plan.",
       },
     ],
   },
@@ -226,7 +226,7 @@ export const services: Service[] = [
     heroImage: financialProtectionImg,
     icon: ShieldCheck,
     intro:
-      "Life is unpredictable, but your financial plan doesn't have to be. We help you identify gaps in your protection — whether that's income, health, or family security — and put strategies in place to guard against the unexpected.",
+      "Life is unpredictable, but your financial plan doesn't have to be. We help you identify gaps in your protection, whether that's income, health, or family security, and put strategies in place to guard against the unexpected.",
     benefits: [
       "A clear view of where your financial plan may be exposed",
       "Strategies to protect your income and your family",
@@ -314,7 +314,7 @@ export const services: Service[] = [
     faqs: [
       {
         q: "Do I need a trust if I already have a will?",
-        a: "It depends on your goals — trusts can offer benefits like avoiding probate and more control over how assets are distributed. We'll discuss whether it makes sense for your situation.",
+        a: "It depends on your goals, trusts can offer benefits like avoiding probate and more control over how assets are distributed. We'll discuss whether it makes sense for your situation.",
       },
       {
         q: "Can life insurance be placed inside a trust?",
@@ -331,7 +331,7 @@ export const services: Service[] = [
     heroImage: beneficiaryLiquidityImg,
     icon: Wallet,
     intro:
-      "When a loved one passes away, timing matters. Beneficiary liquidity planning helps ensure your family has quick access to cash — for final expenses, debts, or day-to-day needs — without waiting on the probate process.",
+      "When a loved one passes away, timing matters. Beneficiary liquidity planning helps ensure your family has quick access to cash, for final expenses, debts, or day-to-day needs, without waiting on the probate process.",
     benefits: [
       "Faster access to funds for your beneficiaries when it matters most",
       "Reduced financial stress on your family during a difficult time",
@@ -353,7 +353,7 @@ export const services: Service[] = [
       },
       {
         q: "How often should I review my beneficiary designations?",
-        a: "We recommend reviewing them after major life events — marriage, divorce, a new child, or the loss of a loved one — and periodically as part of your regular plan reviews.",
+        a: "We recommend reviewing them after major life events, marriage, divorce, a new child, or the loss of a loved one, and periodically as part of your regular plan reviews.",
       },
     ],
   },
