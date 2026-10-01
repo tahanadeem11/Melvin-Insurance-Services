@@ -1,1 +1,0 @@
-var e=`/assets/Mr%20Melvin-DG6lv7KA.jpg`;export{e as t};
