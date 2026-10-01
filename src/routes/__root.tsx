@@ -101,7 +101,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@type": "InsuranceAgency",
           name: "Mr Melvin Insurance Services INC",
           telephone: "+1-866-218-3854",
-          email: "Mrmelvin.gfi@gmail.com",
+          email: "mrmelvininsurance@gmail.com",
           openingHours: ["Mo-Fr 09:00-19:00", "Sa 09:00-17:00"],
           address: {
             "@type": "PostalAddress",

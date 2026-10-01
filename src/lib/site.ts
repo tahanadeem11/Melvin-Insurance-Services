@@ -3,8 +3,8 @@ export const site = {
   owner: "Melvin Hodges",
   phoneDisplay: "(866) 218-3854",
   phoneHref: "tel:+18662183854",
-  email: "Mrmelvin.gfi@gmail.com",
-  emailHref: "mailto:Mrmelvin.gfi@gmail.com",
+  email: "mrmelvininsurance@gmail.com",
+  emailHref: "mailto:mrmelvininsurance@gmail.com",
   hours: "Mon to Fri 9am to 7pm, Sat 9am to 5pm",
   address: "1935 S Alpine Rd #2n, Rockford, IL 61108",
   googleUrl: "https://www.google.com/search?q=Mr+Melvin+Insurance+Services+INC+Rockford+IL",
@@ -49,7 +49,7 @@ export const faqs = [
   },
   {
     q: "How do I get a quote or start a consultation?",
-    a: "Call us at (866) 218-3854, email Mrmelvin.gfi@gmail.com, or fill out our contact form. We'll schedule a no-obligation conversation to understand your needs before recommending anything.",
+    a: "Call us at (866) 218-3854, email mrmelvininsurance@gmail.com, or fill out our contact form. We'll schedule a no-obligation conversation to understand your needs before recommending anything.",
   },
   {
     q: "Do you help with retirement and estate planning, not just insurance?",
