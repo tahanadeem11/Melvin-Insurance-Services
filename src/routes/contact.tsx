@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState, type FormEvent } from "react";
-import { Clock, Mail, MapPin, Phone, Send } from "lucide-react";
+import { CalendarCheck, Clock, Mail, MapPin, Phone, Send } from "lucide-react";
 import { PageHero, SectionBadge } from "@/components/Section";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -111,6 +111,21 @@ function ContactPage() {
                 </div>
               </li>
             </ul>
+
+            <div className="mt-8 rounded-lg border border-border bg-card p-6 shadow-card">
+              <h3 className="font-display text-lg font-extrabold text-primary">
+                Book Your Free Consultation
+              </h3>
+              <p className="mt-2 text-sm text-muted-foreground">
+                Pick a day and time that works for you, no phone tag needed.
+              </p>
+              <Button asChild className="mt-4 w-full font-display font-bold">
+                <a href={site.bookingUrl} target="_blank" rel="noopener noreferrer">
+                  <CalendarCheck className="h-4 w-4" />
+                  Book Appointment
+                </a>
+              </Button>
+            </div>
 
             <div className="mt-8 overflow-hidden rounded-lg border border-border shadow-card">
               <iframe

@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/accordion";
 
 const navLinkClass =
-  "px-1 py-2 text-sm font-semibold uppercase tracking-wide text-charcoal transition-colors hover:text-accent";
+  "whitespace-nowrap px-1 py-2 text-sm font-semibold uppercase tracking-wide text-charcoal transition-colors hover:text-accent";
 
 function Dropdown({
   label,
@@ -88,7 +88,7 @@ export function SiteHeader() {
 
       <div className="border-b border-border bg-background/95 backdrop-blur">
         <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-4 py-3 lg:flex lg:justify-between">
-          <Link to="/" className="flex min-w-0 items-center gap-2.5 sm:gap-3">
+          <Link to="/" className="flex min-w-0 items-center gap-2.5 lg:shrink-0 sm:gap-3">
             <img
               src={logoIcon}
               alt={`${site.name} logo`}
@@ -106,7 +106,7 @@ export function SiteHeader() {
             </span>
           </Link>
 
-          <nav className="hidden items-center gap-7 lg:flex">
+          <nav className="hidden items-center gap-4 xl:gap-6 lg:flex">
             <Link
               to="/"
               className={navLinkClass}
@@ -138,18 +138,22 @@ export function SiteHeader() {
           <div className="flex items-center gap-2">
             <Button
               asChild
-              size="lg"
+              size="sm"
               variant="outline"
-              className="hidden font-display font-bold xl:inline-flex"
+              className="hidden whitespace-nowrap font-display text-xs font-bold xl:inline-flex"
             >
               <a href={site.bookingUrl} target="_blank" rel="noopener noreferrer">
-                <CalendarCheck className="h-4 w-4" />
+                <CalendarCheck className="h-3.5 w-3.5" />
                 Book Appointment
               </a>
             </Button>
-            <Button asChild size="lg" className="hidden font-display font-bold sm:inline-flex">
+            <Button
+              asChild
+              size="sm"
+              className="hidden whitespace-nowrap font-display text-xs font-bold sm:inline-flex"
+            >
               <a href={site.phoneHref}>
-                <Phone className="h-4 w-4" />
+                <Phone className="h-3.5 w-3.5" />
                 Call Now: {site.phoneDisplay}
               </a>
             </Button>
