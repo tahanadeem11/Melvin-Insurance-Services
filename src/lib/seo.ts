@@ -14,13 +14,8 @@ export const staticPages = [
 // Bump when page content changes materially; used as <lastmod>.
 const LAST_MODIFIED = "2026-10-05";
 
-export function getOrigin(request: Request): string {
-  const fromEnv = process.env.SITE_URL?.trim();
-  if (fromEnv) return fromEnv.replace(/\/+$/, "");
-  const url = new URL(request.url);
-  const host = request.headers.get("x-forwarded-host") ?? url.host;
-  const proto = request.headers.get("x-forwarded-proto") ?? url.protocol.replace(":", "");
-  return `${proto}://${host}`;
+export function getOrigin(_request?: Request): string {
+  return (process.env.SITE_URL?.trim() || site.url).replace(/\/+$/, "");
 }
 
 export function buildSitemap(origin: string): string {

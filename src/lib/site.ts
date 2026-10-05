@@ -1,4 +1,5 @@
 export const site = {
+  url: "https://mrmelvininsurance.com",
   name: "Mr Melvin Insurance Services INC",
   owner: "Melvin Hodges",
   phoneDisplay: "(866) 218-3854",

@@ -22,9 +22,9 @@ export const Route = createFileRoute("/contact")({
         property: "og:description",
         content: "Reach out for a free consultation, serving clients across 22 states nationwide.",
       },
-      { property: "og:url", content: "/contact" },
+      { property: "og:url", content: `${site.url}/contact` },
     ],
-    links: [{ rel: "canonical", href: "/contact" }],
+    links: [{ rel: "canonical", href: `${site.url}/contact` }],
   }),
   component: ContactPage,
 });

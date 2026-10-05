@@ -1,3 +1,4 @@
+import { site } from "@/lib/site";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { PageHero } from "@/components/Section";
@@ -22,9 +23,9 @@ export const Route = createFileRoute("/services/")({
         content:
           "Life insurance, annuities, retirement, and estate planning strategies for clients nationwide.",
       },
-      { property: "og:url", content: "/services" },
+      { property: "og:url", content: `${site.url}/services` },
     ],
-    links: [{ rel: "canonical", href: "/services" }],
+    links: [{ rel: "canonical", href: `${site.url}/services` }],
   }),
   component: ServicesIndex,
 });

@@ -75,9 +75,9 @@ export const Route = createFileRoute("/")({
         content:
           "Personalized life insurance, annuities, retirement, and estate planning guidance, serving clients nationwide from Rockford, IL.",
       },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: `${site.url}/` },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: `${site.url}/` }],
     scripts: [
       {
         type: "application/ld+json",

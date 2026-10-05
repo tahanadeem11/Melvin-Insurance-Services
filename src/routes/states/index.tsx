@@ -1,3 +1,4 @@
+import { site } from "@/lib/site";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, MapPin } from "lucide-react";
 import { PageHero } from "@/components/Section";
@@ -21,9 +22,9 @@ export const Route = createFileRoute("/states/")({
         property: "og:description",
         content: "22 states served nationwide, see if we cover your state.",
       },
-      { property: "og:url", content: "/states" },
+      { property: "og:url", content: `${site.url}/states` },
     ],
-    links: [{ rel: "canonical", href: "/states" }],
+    links: [{ rel: "canonical", href: `${site.url}/states` }],
   }),
   component: StatesIndex,
 });

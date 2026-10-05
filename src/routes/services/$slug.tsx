@@ -22,9 +22,9 @@ export const Route = createFileRoute("/services/$slug")({
         { name: "description", content: loaderData.excerpt },
         { property: "og:title", content: `${loaderData.title} | Mr Melvin Insurance Services INC` },
         { property: "og:description", content: loaderData.excerpt },
-        { property: "og:url", content: loaderData.to },
+        { property: "og:url", content: `${site.url}${loaderData.to}` },
       ],
-      links: [{ rel: "canonical", href: loaderData.to }],
+      links: [{ rel: "canonical", href: `${site.url}${loaderData.to}` }],
     };
   },
   component: ServiceDetail,

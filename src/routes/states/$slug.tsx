@@ -26,9 +26,9 @@ export const Route = createFileRoute("/states/$slug")({
           content: `Serving ${loaderData.name} | Mr Melvin Insurance Services INC`,
         },
         { property: "og:description", content: loaderData.blurb },
-        { property: "og:url", content: loaderData.to },
+        { property: "og:url", content: `${site.url}${loaderData.to}` },
       ],
-      links: [{ rel: "canonical", href: loaderData.to }],
+      links: [{ rel: "canonical", href: `${site.url}${loaderData.to}` }],
     };
   },
   component: StateDetail,

@@ -8,7 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { faqs } from "@/lib/site";
+import { faqs, site } from "@/lib/site";
 
 export const Route = createFileRoute("/faq")({
   head: () => ({
@@ -25,9 +25,9 @@ export const Route = createFileRoute("/faq")({
         content:
           "Common questions about life insurance, annuities, states served, and getting a consultation.",
       },
-      { property: "og:url", content: "/faq" },
+      { property: "og:url", content: `${site.url}/faq` },
     ],
-    links: [{ rel: "canonical", href: "/faq" }],
+    links: [{ rel: "canonical", href: `${site.url}/faq` }],
   }),
   component: FaqPage,
 });

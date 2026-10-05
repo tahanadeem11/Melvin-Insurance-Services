@@ -21,9 +21,9 @@ export const Route = createFileRoute("/about")({
         content:
           "Personalized life insurance, retirement, and estate planning guidance from our Rockford, IL office, serving clients across 22 states.",
       },
-      { property: "og:url", content: "/about" },
+      { property: "og:url", content: `${site.url}/about` },
     ],
-    links: [{ rel: "canonical", href: "/about" }],
+    links: [{ rel: "canonical", href: `${site.url}/about` }],
   }),
   component: AboutPage,
 });
