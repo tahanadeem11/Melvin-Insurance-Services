@@ -70,10 +70,10 @@ function ServiceDetail() {
             </ul>
 
             <Button asChild size="lg" className="mt-8 font-display font-bold">
-              <Link to="/contact">
-                Get a Free Quote
+              <a href={site.bookingUrl} target="_blank" rel="noopener noreferrer">
+                Get a Free Consultation
                 <ArrowRight className="h-4 w-4" />
-              </Link>
+              </a>
             </Button>
           </div>
         </div>

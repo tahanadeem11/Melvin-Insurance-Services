@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Mail, Menu, Phone, Clock, ChevronDown } from "lucide-react";
+import { Mail, Menu, Phone, Clock, ChevronDown, CalendarCheck } from "lucide-react";
 import { useState } from "react";
 import logoIcon from "@/assets/logo-icon.png";
 import { site } from "@/lib/site";
@@ -136,6 +136,17 @@ export function SiteHeader() {
           </nav>
 
           <div className="flex items-center gap-2">
+            <Button
+              asChild
+              size="lg"
+              variant="outline"
+              className="hidden font-display font-bold xl:inline-flex"
+            >
+              <a href={site.bookingUrl} target="_blank" rel="noopener noreferrer">
+                <CalendarCheck className="h-4 w-4" />
+                Book Appointment
+              </a>
+            </Button>
             <Button asChild size="lg" className="hidden font-display font-bold sm:inline-flex">
               <a href={site.phoneHref}>
                 <Phone className="h-4 w-4" />
@@ -233,6 +244,17 @@ export function SiteHeader() {
                   >
                     FAQ's
                   </Link>
+                  <Button asChild size="lg" className="mt-4 font-display font-bold">
+                    <a
+                      href={site.bookingUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      onClick={() => setOpen(false)}
+                    >
+                      <CalendarCheck className="h-4 w-4" />
+                      Book Appointment
+                    </a>
+                  </Button>
                 </nav>
               </SheetContent>
             </Sheet>

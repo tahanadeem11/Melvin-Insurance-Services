@@ -1,5 +1,4 @@
 import { Phone, CalendarCheck } from "lucide-react";
-import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import { site } from "@/lib/site";
 
@@ -27,10 +26,10 @@ export function CtaBanner() {
             variant="outline"
             className="border-primary-foreground/40 bg-transparent font-display font-bold text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground"
           >
-            <Link to="/contact">
+            <a href={site.bookingUrl} target="_blank" rel="noopener noreferrer">
               <CalendarCheck className="h-4 w-4" />
               Schedule a Consultation
-            </Link>
+            </a>
           </Button>
         </div>
       </div>

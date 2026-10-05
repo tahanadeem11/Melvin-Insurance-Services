@@ -130,7 +130,16 @@ function ContactPage() {
                 Request a Free Consultation
               </h2>
               <p className="mt-2 text-sm text-muted-foreground">
-                Fill out the form and it will open a pre-filled email to {site.email}, no account
+                Prefer to pick a time?{" "}
+                <a
+                  href={site.bookingUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-accent hover:underline"
+                >
+                  Book your free consultation online
+                </a>
+                . Or fill out the form and it will open a pre-filled email to {site.email}, no account
                 or sign-up needed.
               </p>
               <form onSubmit={handleSubmit} className="mt-6 grid gap-5 sm:grid-cols-2">

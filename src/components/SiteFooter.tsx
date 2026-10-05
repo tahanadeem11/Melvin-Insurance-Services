@@ -52,6 +52,16 @@ export function SiteFooter() {
               </Link>
             </li>
             <li>
+              <a
+                href={site.bookingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-accent"
+              >
+                Book Appointment
+              </a>
+            </li>
+            <li>
               <Link to="/faq" className="hover:text-accent">
                 FAQ's
               </Link>

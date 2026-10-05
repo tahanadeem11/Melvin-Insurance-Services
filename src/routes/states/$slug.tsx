@@ -62,10 +62,10 @@ function StateDetail() {
             {state.intro}
           </p>
           <Button asChild size="lg" className="mt-8 font-display font-bold">
-            <Link to="/contact">
+            <a href={site.bookingUrl} target="_blank" rel="noopener noreferrer">
               Get a Free Consultation
               <ArrowRight className="h-4 w-4" />
-            </Link>
+            </a>
           </Button>
           <a
             href={site.phoneHref}

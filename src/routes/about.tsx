@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import aboutImg from "@/assets/Mr Melvin.jpg";
 import { Button } from "@/components/ui/button";
@@ -81,10 +81,10 @@ function AboutPage() {
               </p>
             </div>
             <Button asChild size="lg" className="mt-8 font-display font-bold">
-              <Link to="/contact">
+              <a href={site.bookingUrl} target="_blank" rel="noopener noreferrer">
                 Get a Free Consultation
                 <ArrowRight className="h-4 w-4" />
-              </Link>
+              </a>
             </Button>
           </div>
           <img

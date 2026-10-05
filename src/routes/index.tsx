@@ -197,10 +197,10 @@ function Index() {
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Button asChild size="lg" className="font-display font-bold">
-                <Link to="/contact">
+                <a href={site.bookingUrl} target="_blank" rel="noopener noreferrer">
                   Get a Free Consultation
                   <ArrowRight className="h-4 w-4" />
-                </Link>
+                </a>
               </Button>
               <Button
                 asChild
